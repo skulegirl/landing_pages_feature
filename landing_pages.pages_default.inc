@@ -17,7 +17,7 @@ function landing_pages_default_page_manager_pages() {
     'logic' => 'and',
   );
   $page->menu = array(
-    'type' => 'normal',
+    'type' => 'none',
     'title' => 'Home',
     'name' => 'primary-links',
     'weight' => '0',
@@ -188,7 +188,7 @@ function landing_pages_default_page_manager_pages() {
     $pane->panel = 'middle';
     $pane->type = 'node';
     $pane->subtype = 'node';
-    $pane->shown = TRUE;
+    $pane->shown = FALSE;
     $pane->access = array();
     $pane->configuration = array(
       'nid' => '12',
@@ -213,7 +213,7 @@ function landing_pages_default_page_manager_pages() {
     $pane->panel = 'middle';
     $pane->type = 'node';
     $pane->subtype = 'node';
-    $pane->shown = TRUE;
+    $pane->shown = FALSE;
     $pane->access = array();
     $pane->configuration = array(
       'nid' => '72',
@@ -238,7 +238,7 @@ function landing_pages_default_page_manager_pages() {
     $pane->panel = 'right';
     $pane->type = 'block';
     $pane->subtype = 'fb_likebox-0';
-    $pane->shown = TRUE;
+    $pane->shown = FALSE;
     $pane->access = array();
     $pane->configuration = array(
       'override_title' => 1,
